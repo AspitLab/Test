@@ -8,7 +8,8 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid Margin="5">
         <Grid.RowDefinitions>
-            <RowDefinition/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -20,6 +21,12 @@
                Margin="5"
                VerticalAlignment="Top"
                Width="450"/>
+        <Label x:Name="JakobsLabel"
+               Grid.Row="1"
+               Content="Heyo"
+               HorizontalAlignment="Left"
+               Margin="5"
+               VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
