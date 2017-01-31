@@ -16,15 +16,13 @@
         </Grid.ColumnDefinitions>
         <Label x:Name="label"
                Content="Hej med jer"
-               HorizontalAlignment="Left"
-               Height="31"
+               HorizontalAlignment="Center"
                Margin="5"
-               VerticalAlignment="Top"
-               Width="450"/>
+               VerticalAlignment="Top"/>
         <Label x:Name="JakobsLabel"
                Grid.Row="1"
                Content="Heyo"
-               HorizontalAlignment="Left"
+               HorizontalAlignment="Center"
                Margin="5"
                VerticalAlignment="Top"/>
         <Button
@@ -33,7 +31,7 @@
             Content="Button"
             Height="60"
             Margin="5"
-            VerticalAlignment="Center"
+            VerticalAlignment="Bottom"
             HorizontalAlignment="Center"
             Width="101"/>
 
