@@ -6,15 +6,20 @@
         xmlns:local="clr-namespace:MoreTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Grid Margin="5">
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="label" Content="Hej med jer
-               " HorizontalAlignment="Left" Height="31" Margin="57,228,0,0" VerticalAlignment="Top" Width="450"/>
+        <Label x:Name="label"
+               Content="Hej med jer"
+               HorizontalAlignment="Left"
+               Height="31"
+               Margin="5"
+               VerticalAlignment="Top"
+               Width="450"/>
 
     </Grid>
 </Window>
