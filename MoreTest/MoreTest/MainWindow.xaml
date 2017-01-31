@@ -29,11 +29,12 @@
                VerticalAlignment="Top"/>
         <Button
             x:Name="button"
+            Grid.RowSpan="2"
             Content="Button"
-            HorizontalAlignment="Left"
             Height="60"
-            Margin="159,125,0,0"
-            VerticalAlignment="Top"
+            Margin="5"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
             Width="101"/>
 
     </Grid>
