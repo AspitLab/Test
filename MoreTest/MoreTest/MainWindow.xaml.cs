@@ -27,7 +27,7 @@ namespace MoreTest
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
+            JakobsLabel.Content = "Button pressed!";
         }
     }
 }
