@@ -31,11 +31,12 @@
             x:Name="button"
             Grid.RowSpan="2"
             Content="Button"
-            Height="60"
+            Height="30"
+            Width="100"
             Margin="5"
             VerticalAlignment="Bottom"
             HorizontalAlignment="Center"
-            Width="101"/>
+            Click="button_Click"/>
 
     </Grid>
 </Window>
